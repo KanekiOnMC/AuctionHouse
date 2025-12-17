@@ -15,7 +15,7 @@
     "config": {
         "platform": {
             "php": "8.4",
-            "ext-pmmpthread": "6.0.0",
+            "ext-pmmpthread": "6.2.0",
             "ext-leveldb": "0.3.0"
         }
     },
