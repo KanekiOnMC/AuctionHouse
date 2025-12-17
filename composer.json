@@ -12,13 +12,6 @@
         "analyze": "vendor/bin/phpstan",
         "build": "php -dphar.readonly=0 vendor/bin/pharynx -i=. -c -p=AuctionHouse.phar"
     },
-    "config": {
-        "platform": {
-            "php": "8.4",
-            "ext-pmmpthread": "6.2.0",
-            "ext-leveldb": "0.3.0"
-        }
-    },
     "require": {
         "pocketmine/pocketmine-mp": "^5.0.0",
         "sof3/await-generator": "^3.6",
