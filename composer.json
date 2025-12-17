@@ -19,7 +19,7 @@
 		"muqsit/invmenu": "^4.6.5",
 		"ifera-mc/update-notifier": "dev-master",
 		"muqsit/simple-packet-handler": "dev-pm5",
-		"cortexpe/commando": "dev-fork"
+		"cortexpe/commando": "^3.2.0"
 	},
 	"require-dev": {
 		"sof3/pharynx": "^0.3.4",
@@ -28,7 +28,7 @@
 	"repositories": [
 		{
 			"type": "git",
-			"url": "https://github.com/JavierLeon9966/Commando.git"
+			"url": "https://github.com/cortexpe/commando.git"
 		},
 		{
 			"type": "git",
