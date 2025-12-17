@@ -1,41 +1,48 @@
 {
-	"name": "kanekionmc/auctionhouse",
-	"description": "Feature-packed AuctionHouse plugin for PocketMine-MP",
-	"type": "pocketmine-plugin",
-	"license": "GPL-3.0-or-later",
-	"authors": [
-		{
-			"name": "Shock95"
-		}
-	],
-	"scripts": {
-		"analyze": "vendor/bin/phpstan",
-		"build": "php -dphar.readonly=0 vendor/bin/pharynx -i=. -c -p=AuctionHouse.phar"
-	},
-	"require": {
-		"pocketmine/pocketmine-mp": "^5.0.0",
-		"sof3/await-generator": "^3.6",
-		"sof3/libasynql": "^4.2.3",
-		"muqsit/invmenu": "^4.6.5",
-		"ifera-mc/update-notifier": "^3.1.0",
-		"muqsit/simple-packet-handler": "^0.1.5",
-		"cortexpe/commando": "^3.2.0"
-	},
-	"require-dev": {
-		"sof3/pharynx": "^0.3.4",
-		"phpstan/phpstan": "^1.2"
-	},
-	"repositories": [
-		{
-			"type": "git",
-			"url": "https://github.com/cortexpe/commando.git"
-		},
-		{
-			"type": "git",
-			"url": "https://github.com/ifera-mc/UpdateNotifier.git"
-		}
-	],
-	"autoload": {
-		"classmap": ["src"]
-	}
+    "name": "kanekionmc/auctionhouse",
+    "description": "Feature-packed AuctionHouse plugin for PocketMine-MP",
+    "type": "pocketmine-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Shock95"
+        }
+    ],
+    "scripts": {
+        "analyze": "vendor/bin/phpstan",
+        "build": "php -dphar.readonly=0 vendor/bin/pharynx -i=. -c -p=AuctionHouse.phar"
+    },
+    "config": {
+        "platform": {
+            "php": "8.1",
+            "ext-pmmpthread": "6.0.0",
+            "ext-leveldb": "0.3.0"
+        }
+    },
+    "require": {
+        "pocketmine/pocketmine-mp": "^5.0.0",
+        "sof3/await-generator": "^3.6",
+        "sof3/libasynql": "^4.2.3",
+        "muqsit/invmenu": "^4.6.5",
+        "ifera-mc/update-notifier": "^3.1.0",
+        "muqsit/simple-packet-handler": "^0.1.5",
+        "cortexpe/commando": "^3.2.0"
+    },
+    "require-dev": {
+        "sof3/pharynx": "^0.3.4",
+        "phpstan/phpstan": "^1.2"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/cortexpe/commando.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/ifera-mc/UpdateNotifier.git"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src"]
+    }
 }
