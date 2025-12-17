@@ -23,10 +23,10 @@
         "pocketmine/pocketmine-mp": "^5.0.0",
         "sof3/await-generator": "^3.6",
         "sof3/libasynql": "^4.2.3",
-        "muqsit/invmenu": "^4.6.5",
-        "ifera-mc/update-notifier": "^3.1.0",
-        "muqsit/simple-packet-handler": "^0.1.5",
-        "cortexpe/commando": "^3.2.0"
+        "muqsit/invmenu": "dev-pm5",
+        "ifera-mc/update-notifier": "dev-master",
+        "muqsit/simple-packet-handler": "dev-pm5",
+        "cortexpe/commando": "dev-master"
     },
     "require-dev": {
         "sof3/pharynx": "^0.3.4",
@@ -34,12 +34,12 @@
     },
     "repositories": [
         {
-            "type": "git",
-            "url": "https://github.com/cortexpe/commando.git"
+            "type": "vcs",
+            "url": "https://github.com/cortexpe/commando"
         },
         {
-            "type": "git",
-            "url": "https://github.com/ifera-mc/UpdateNotifier.git"
+            "type": "vcs",
+            "url": "https://github.com/ifera-mc/UpdateNotifier"
         }
     ],
     "autoload": {
