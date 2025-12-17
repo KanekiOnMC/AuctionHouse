@@ -43,7 +43,7 @@
         "url": "https://github.com/cortexpe/commando",
         "no-api": true
     }
-]
+],
     "autoload": {
         "classmap": ["src"]
     }
