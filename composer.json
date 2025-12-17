@@ -1,5 +1,5 @@
 {
-	"name": "shock95/auctionhouse",
+	"name": "kanekionmc/auctionhouse",
 	"description": "Feature-packed AuctionHouse plugin for PocketMine-MP",
 	"type": "pocketmine-plugin",
 	"license": "GPL-3.0-or-later",
@@ -15,10 +15,10 @@
 	"require": {
 		"pocketmine/pocketmine-mp": "^5.0.0",
 		"sof3/await-generator": "^3.6",
-		"sof3/libasynql": "dev-master",
+		"sof3/libasynql": "^4.2.3",
 		"muqsit/invmenu": "^4.6.5",
-		"ifera-mc/update-notifier": "dev-master",
-		"muqsit/simple-packet-handler": "dev-pm5",
+		"ifera-mc/update-notifier": "^3.1.0",
+		"muqsit/simple-packet-handler": "^0.1.5",
 		"cortexpe/commando": "^3.2.0"
 	},
 	"require-dev": {
